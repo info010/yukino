@@ -1,5 +1,6 @@
 import { Formatter } from "../core/formatter";
 import { LogEntry } from "../core/logger";
+import { getLevelName } from "../core/level";
 
 /**
  * JSON Formatter
@@ -14,7 +15,7 @@ export class JsonFormatter implements Formatter {
    */
   format(entry: LogEntry): string {
     return JSON.stringify({
-      level: entry.level,
+      level: getLevelName(entry.level),
       message: entry.message,
       timestamp: entry.timestamp.toISOString(),
       context: entry.context ?? {},

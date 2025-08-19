@@ -38,11 +38,11 @@ export class Logger {
    */
   constructor(
     minLevel: LogLevel = LogLevel.INFO,
-    transports: Transport[] = [],
+    transports: Transport[] = [new ConsoleTransport()],
     context?: LogContext
   ) {
     this.minLevel = minLevel;
-    this.transports = transports ?? [new ConsoleTransport()];
+    this.transports = transports;
     this.contextManager = new ContextManager(context);
   }
 

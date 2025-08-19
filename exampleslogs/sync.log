@@ -1,0 +1,16 @@
+[2025-08-19T13:39:45.878Z] [3][0m Sync file log example {}
+[2025-08-19T13:39:45.879Z] [2][0m Sync file log with context {"user":"tester"}
+[2025-08-19T13:39:45.880Z] [3][0m Async file log example {}
+[2025-08-19T13:39:45.881Z] [1][0m Async file log with context {"retry":true}
+[2025-08-19T13:41:02.035Z] [3][0m Sync file log example {}
+[2025-08-19T13:41:02.036Z] [2][0m Sync file log with context {"user":"tester"}
+[2025-08-19T13:41:02.037Z] [3][0m Async file log example {}
+[2025-08-19T13:41:02.038Z] [1][0m Async file log with context {"retry":true}
+[2025-08-19T18:33:22.795Z] [3][0m Sync file log example {}
+[2025-08-19T18:33:22.797Z] [2][0m Sync file log with context {"user":"tester"}
+[2025-08-19T18:33:22.798Z] [3][0m Async file log example {}
+[2025-08-19T18:33:22.799Z] [1][0m Async file log with context {"retry":true}
+[2025-08-19T18:34:10.421Z] [3][0m Sync file log example {}
+[2025-08-19T18:34:10.422Z] [2][0m Sync file log with context {"user":"tester"}
+[2025-08-19T18:34:10.423Z] [3][0m Async file log example {}
+[2025-08-19T18:34:10.424Z] [1][0m Async file log with context {"retry":true}

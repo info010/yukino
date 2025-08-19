@@ -1,9 +1,6 @@
 import { yukino } from "../src/yukino";
 
-const logger = yukino.logger(yukino.LogLevel.DEBUG, [
-  yukino.asyncconsoletransport(yukino.prettyformatter(), 0),
-  yukino.asyncfiletransport("examples/logs/async.json", yukino.jsonformatter()),
-]);
+const logger = yukino.logger();
 
 (async () => {
   logger.info("Server started", { port: 3000 });

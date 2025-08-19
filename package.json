@@ -1,6 +1,6 @@
 {
   "name": "yukino-ts",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Lightweight Node.js Logger with Sync/Async Transport and Formatter support",
   "main": "./dist/yukino.js",
   "types": "./dist/yukino.d.ts",
@@ -33,6 +33,7 @@
     "vitest": "^3.2.4"
   },
   "dependencies": {
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "yukino-ts": "^0.0.4"
   }
 }

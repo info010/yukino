@@ -1,0 +1,16 @@
+{"level":3,"message":"Sync file log example","timestamp":"2025-08-19T13:39:45.878Z","context":{}}
+{"level":1,"message":"Async file log with context","timestamp":"2025-08-19T13:39:45.881Z","context":{"retry":true}}
+{"level":2,"message":"Sync file log with context","timestamp":"2025-08-19T13:39:45.879Z","context":{"user":"tester"}}
+{"level":3,"message":"Async file log example","timestamp":"2025-08-19T13:39:45.880Z","context":{}}
+{"level":3,"message":"Sync file log example","timestamp":"2025-08-19T13:41:02.035Z","context":{}}
+{"level":2,"message":"Sync file log with context","timestamp":"2025-08-19T13:41:02.036Z","context":{"user":"tester"}}
+{"level":1,"message":"Async file log with context","timestamp":"2025-08-19T13:41:02.038Z","context":{"retry":true}}
+{"level":3,"message":"Async file log example","timestamp":"2025-08-19T13:41:02.037Z","context":{}}
+{"level":3,"message":"Sync file log example","timestamp":"2025-08-19T18:33:22.795Z","context":{}}
+{"level":2,"message":"Sync file log with context","timestamp":"2025-08-19T18:33:22.797Z","context":{"user":"tester"}}
+{"level":3,"message":"Async file log example","timestamp":"2025-08-19T18:33:22.798Z","context":{}}
+{"level":1,"message":"Async file log with context","timestamp":"2025-08-19T18:33:22.799Z","context":{"retry":true}}
+{"level":3,"message":"Sync file log example","timestamp":"2025-08-19T18:34:10.421Z","context":{}}
+{"level":2,"message":"Sync file log with context","timestamp":"2025-08-19T18:34:10.422Z","context":{"user":"tester"}}
+{"level":3,"message":"Async file log example","timestamp":"2025-08-19T18:34:10.423Z","context":{}}
+{"level":1,"message":"Async file log with context","timestamp":"2025-08-19T18:34:10.424Z","context":{"retry":true}}

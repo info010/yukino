@@ -1,5 +1,6 @@
 import { Formatter } from "../core/formatter";
 import { LogEntry } from "../core/logger";
+import { getLevelName } from "../core/level";
 
 /**
  * Pretty Formatter
@@ -28,7 +29,7 @@ export class PrettyFormatter implements Formatter {
     const ts = entry.timestamp.toISOString();
     const ctx = entry.context ? JSON.stringify(entry.context) : "";
 
-    return `${color}[${ts}] [${entry.level}]${reset} ${entry.message} ${ctx}`;
+    return `${color}[${ts}] [${getLevelName(entry.level)}]${reset} ${entry.message} ${ctx}`;
   }
 }
 

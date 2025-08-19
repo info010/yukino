@@ -11,5 +11,9 @@ node_modules/
 
 *.ts
 
+tsconfig.json
+.gitignore
+.npmignore
+
 .DS_Store
 .env

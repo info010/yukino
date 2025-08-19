@@ -1,7 +1,7 @@
-import { yukino } from "../src/yukino";
+import { yukino } from "yukino-ts";
 
 const logger = yukino.logger(yukino.LogLevel.DEBUG, [
-  yukino.consoletransport(yukino.prettyformatter()),
+  yukino.consoletransport(),
 ]);
 
 logger.debug("Debug message");

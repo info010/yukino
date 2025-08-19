@@ -10,12 +10,12 @@ import { getLevelName } from "../core/level";
 export class PrettyFormatter implements Formatter {
   /** Mapping of log levels to ANSI color codes */
   private colorMap: Record<string, string> = {
-    FATAL: "\x1b[31;1m", // bright red
-    ERROR: "\x1b[31m", // red
-    WARN: "\x1b[33m", // yellow
-    INFO: "\x1b[32m", // green
-    DEBUG: "\x1b[36m", // cyan
-    TRACE: "\x1b[90m", // gray
+    0: "\x1b[31;1m", // bright red
+    1: "\x1b[31m", // red
+    2: "\x1b[33m", // yellow
+    3: "\x1b[32m", // green
+    4: "\x1b[36m", // cyan
+    5: "\x1b[90m", // gray
   };
 
   /**

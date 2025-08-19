@@ -27,7 +27,7 @@ export interface LogEntry {
  */
 export class Logger {
   private minLevel: LogLevel;
-  private transports: Transport[] = [];
+  private transports: Transport[];
   private contextManager: ContextManager;
 
   /**

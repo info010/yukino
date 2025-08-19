@@ -1,4 +1,4 @@
-import { yukino } from "../src/yukino";
+import { yukino } from "yukino-ts";
 
 const logger = yukino.logger(yukino.LogLevel.INFO, [
   yukino.filetransport("examples/logs/sync.log", yukino.prettyformatter()),

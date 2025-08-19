@@ -1,6 +1,4 @@
 *
 !package.json
-!dist/
-!CHANGELOG.md
+!dist/*
 !README.md
-!LICENSE

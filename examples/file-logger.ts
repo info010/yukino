@@ -1,8 +1,8 @@
 import { yukino } from "../src/yukino";
 
 const logger = yukino.logger(yukino.LogLevel.INFO, [
-  yukino.filetransport("exampleslogs/sync.log", yukino.prettyformatter()),
-  yukino.asyncfiletransport("exampleslogs/async.json", yukino.jsonformatter()),
+  yukino.filetransport("examples/logs/sync.log", yukino.prettyformatter()),
+  yukino.asyncfiletransport("examples/logs/async.json", yukino.jsonformatter()),
 ]);
 
 logger.info("Sync file log example");

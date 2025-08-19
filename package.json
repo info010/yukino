@@ -2,11 +2,12 @@
   "name": "yukino-ts",
   "version": "0.0.3",
   "description": "Lightweight Node.js Logger with Sync/Async Transport and Formatter support",
-  "main": "dist/yukino.js",
-  "types": "dist/yukino.d.ts",
+  "main": "./dist/yukino.js",
+  "types": "./dist/yukino.d.ts",
+  "module": "./dist/yukino.mjs",
   "scripts": {
     "dev": "tsc --watch",
-    "build": "tsc",
+    "build": "tsup",
     "test": "vitest run",
     "test:watch": "vitest"
   },
@@ -27,6 +28,7 @@
   "packageManager": "pnpm@10.6.5",
   "devDependencies": {
     "@types/node": "^24.3.0",
+    "tsup": "^8.5.0",
     "typescript": "^5.2.2",
     "vitest": "^3.2.4"
   },

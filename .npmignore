@@ -1,19 +1,6 @@
-# TypeScript resources
-src/
-tests/
-examples/
-
-.vscode/
-.idea/
-
-node_modules/
-*.log
-
-*.ts
-
-tsconfig.json
-.gitignore
-.npmignore
-
-.DS_Store
-.env
+*
+!package.json
+!dist/
+!CHANGELOG.md
+!README.md
+!LICENSE

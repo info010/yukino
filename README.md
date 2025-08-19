@@ -40,7 +40,7 @@ npm install yukino
 ### Basic Logger
 
 ```typescript
-import { yukino } from "yukino";
+import { yukino } from "yukino-ts";
 
 const logger = yukino.logger(yukino.LogLevel.DEBUG, [
   yukino.consoletransport(yukino.prettyformatter()),
@@ -68,7 +68,7 @@ requestLogger.error("User request failed", { endpoint: "/api/data" });
 ### File Logging
 
 ```typescript
-import { yukino } from "yukino";
+import { yukino } from "yukino-ts";
 
 const syncFileLogger = yukino.logger(yukino.LogLevel.INFO, [
   yukino.filetransport("./logs/app.log", yukino.prettyformatter()),
@@ -85,7 +85,7 @@ asyncFileLogger.info("Async file log example");
 ### JSON Logging
 
 ```typescript
-import { yukino } from "yukino";
+import { yukino } from "yukino-ts";
 
 const jsonLogger = yukino.logger(yukino.LogLevel.DEBUG, [
   yukino.asyncfiletransport("./logs/app.json", yukino.jsonformatter()),
@@ -103,7 +103,7 @@ Custom Transport: Extend `SyncTransporter` or `AsyncTransporter` to create trans
 Safe Execution: Use `safeExecute` to avoid breaking your app if a transport fails.
 
 ```typescript
-import { yukino } from "yukino";
+import { yukino } from "yukino-ts";
 
 yukino.safeExecute(() => logger.info("This log is safe"), undefined);
 ```

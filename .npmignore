@@ -1,0 +1,15 @@
+# TypeScript resources
+src/
+tests/
+examples/
+
+.vscode/
+.idea/
+
+node_modules/
+*.log
+
+*.ts
+
+.DS_Store
+.env
